@@ -10,7 +10,7 @@ import com.mitocode.repository.IPersonaRepo;
 public class PersonaServiceImpl implements IPersonaService {
 
 	@Autowired
-	@Qualifier("persona2")
+	@Qualifier("persona1")
 	private IPersonaRepo repo;
 	
 	@Override

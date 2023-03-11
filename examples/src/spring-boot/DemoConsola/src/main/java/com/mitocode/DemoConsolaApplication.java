@@ -22,9 +22,9 @@ public class DemoConsolaApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		//System.out.println("Hola Coders desde Spring Boot en consola");
-		//LOG.info("Hola Coders desde Spring Boot en consola");
-		//LOG.warn("Adviertiendo a los coders");		
+		System.out.println("Hola Coders desde Spring Boot en consola");
+		LOG.info("Hola Coders desde Spring Boot en consola");
+		LOG.warn("Adviertiendo a los coders");
 		service.registrar("MitoCode");		
 	}
 
